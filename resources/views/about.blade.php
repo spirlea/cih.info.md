@@ -5,13 +5,13 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <h2>About Us</h2>
-            <p>We Are Professional</p>
+            <h2>Despre</h2>
+            <p>Colegiul Iulia Hasdeu</p>
           </div>
           <div class="col-md-6">
             <ul class="breadcrumbs">
-              <li><a href="#">Home</a></li>
-              <li>About Us</li>
+              <li><a href="">Home</a></li>
+              <li>Despre</li>
             </ul>
           </div>
         </div>
@@ -31,12 +31,10 @@
             <div class="col-md-7">
 
               <!-- Classic Heading -->
-              <h4 class="classic-title"><span>Welcome To Our Agency</span></h4>
+              <h4 class="classic-title"><span>Colegiul Iulia Hasdeu</span></h4>
 
               <!-- Some Text -->
-              <p>Lorem Ipsum is simply dummy text of the <a title="Simple Tooltip" href="#" class="itl-tooltip" data-placement="top">printing</a> and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-              <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Sed ut perspiciatis unde omnis iste natus error sit volup accusantium. Lorem ipsum dolor sit amet, consectetur.</p>
-
+              <p>A fost constituit, prin fuzionarea a două instituții de învățământ, în anul 2003. Prima din ele  - Școala Pedagogică inaugurată la Cahul la 14 aprilie 1945 și reorganizată în anul 1992, în Școala Normală, iar peste doi ani – în Colegiu de Pedagogie și Artă; a doua – Sovhozul-Tehnicum de Hidroameliorare creat la 15 aprilie 1964 și transformat în Colegiu Tehnic Agricol la 26 iunie 1992.Începând cu anul 1999, Colegiul Industrial Pedagogic a constituit o subdiviziune funcțională a noii Universități de Stat din localitate, pentru ca ulterior să devină instituție autonomă de învățământ non universitar de treapta a patra.Construcția actualului bloc d studii al colegiului și a celor patru cămine a fost încheiată în 1971. Sintetizând și evoluând bogatele tradiții ale celor două instituții matrice, Colegiul Industrial Pedagogic, cu un contingent de 782 de elevi, pregătește specialiști calificați în șapte domenii: pedagogia învățământului primar, pedagogia preșcolară, instruirea muzicală, instruirea în arte plastice, asistența socială, contabilitate, informatică, finanțe și bănci.</p>
             </div>
 
             <div class="col-md-5">
@@ -157,7 +155,7 @@
           <div class="hr1" style="margin-bottom:50px;"></div>
 
           <!-- Classic Heading -->
-          <h4 class="classic-title"><span>Our Creative Team</span></h4>
+          <h4 class="classic-title"><span>Administratia</span></h4>
 
           <!-- Start Team Members -->
           <div class="row">
@@ -168,7 +166,7 @@
                 <!-- Memebr Photo, Name & Position -->
                 <div class="member-photo">
                   <img alt="" src="images/team/face_1.png" />
-                  <div class="member-name">John Doe <span>Developer</span></div>
+                  <div class="member-name">Tataru Gheorghe<span>Director</span></div>
                 </div>
                 <!-- Memebr Words -->
                 <div class="member-info">
@@ -192,7 +190,7 @@
                 <!-- Memebr Photo, Name & Position -->
                 <div class="member-photo">
                   <img alt="" src="images/team/face_2.png" />
-                  <div class="member-name">Silly Sally <span>Developer</span></div>
+                  <div class="member-name">Chihai <span>Director Adjunct</span></div>
                 </div>
                 <!-- Memebr Words -->
                 <div class="member-info">
