@@ -237,8 +237,8 @@
           <!-- Start Subscribe & Social Links Widget -->
           <div class="col-md-3">
             <div class="footer-widget mail-subscribe-widget">
-              <h4>Get in touch<span class="head-line"></span></h4>
-              <p>Join our mailing list to stay up to date and get notices about our new releases!</p>
+              <h4>Abonare<span class="head-line"></span></h4>
+              <p>Alăturați-vă la lista noastră, pentru a  fi la curent și de a obține notificări despre noile postari!</p>
               <form class="subscribe">
                 <input type="text" placeholder="mail@example.com">
                 <input type="submit" class="btn-system" value="Send">
@@ -388,7 +388,7 @@
         <div class="copyright-section">
           <div class="row">
             <div class="col-md-6">
-              <p>&copy; 2014 Margo - All Rights Reserved <a href="http://graygrids.com">GrayGrids</a> </p>
+              <p>&copy; 2017 Colegiul Iulia Haseu <a href="http://cih.info.md">CIH</a> </p>
             </div>
             <div class="col-md-6">
               <ul class="footer-nav">
