@@ -1,7 +1,11 @@
 @extends('welcome')
 @section('content')
 <!-- Start Map -->
-    <div id="map" data-position-latitude="23.858092" data-position-longitude="90.262181"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5554.091607995324!2d28.197108!3d45.890397!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xed199321915a2ea8!2sColegiul+Industrial+Pedagogic!5e0!3m2!1sru!2sus!4v1480532449336" width="700px" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+   
+    <!--AIzaSyBlCqq2AHWY-ZJJMAI2-gszGP1nHc2tVrA-->
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyBlCqq2AHWY-ZJJMAI2-gszGP1nHc2tVrA" type="text/javascript"></script>
+    <!-- Start Map -->
+    <div id="map" data-position-latitude="45.888867" data-position-longitude="28.196950"></div>
     <script>
       (function($) {
         $.fn.CustomMap = function(options) {
