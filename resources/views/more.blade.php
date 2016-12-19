@@ -92,7 +92,7 @@
 @endif
           </div>
 
-          @include("sidebar")
+               @include("sidebar")
           
         </div>
 

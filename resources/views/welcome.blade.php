@@ -160,7 +160,7 @@
               <li>
                 <a href="/specialities">Specialități</a>
                 <ul class="dropdown">
-                  <li><a href="{{URL("/specialities")}}">Informatica</a>
+                  <li><a href="{{route('ShowSpecialities',['id'=>1])}}">Informatica</a>
                   </li>
                   <li><a href="{{URL("/specialities")}}">Contabilitate</a>
                   </li>

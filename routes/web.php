@@ -22,7 +22,7 @@ Route::get('/contact', function () {
 Route::get('events','Index1Controller@show')->name('events');
 Route::get('more/{id}','Index1Controller@showarticle')->name('ShowArticle');
 
-Route::get('/specialities', function () {
-    return view('specialities');  
-});
+Route::get('specialities/{id}','Index1Controller@showspecialities')->name('ShowSpecialities');
+    
+
 

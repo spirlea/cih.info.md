@@ -32,15 +32,15 @@
             <div class="blog-post image-post">
               <!-- Post Thumb -->
               <div class="post-head">
-                <a class="lightbox" title="This is an image title" href="images/blog-01.jpg">
+                <a class="lightbox" title="Tataru Gheorghe Director CIH" href="images/blog-01.jpg">
                   <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                  <img alt="" src="images/blog-01.jpg">
+                  <img alt="" src="{{URL::asset('images/blog-01.jpg')}}">
                 </a>
               </div>
               <!-- Post Content -->
               <div class="post-content">
                 <div class="post-type"><i class="fa fa-picture-o"></i></div>
-                <h2><a href="{{URL("/more")}}">{{$article->title}}</a></h2>
+                <h2><a href="{{route('ShowArticle',['id'=>$article->id])}}">{{$article->title}}</a></h2>
                 <ul class="post-meta">
                   <li>By <a href="#">{{$article->author}}</a></li>
                   <li>{{$article->date}}</li>
@@ -66,7 +66,7 @@
           </div>
           <!-- End Blog Posts -->
 
-          @include("sidebar")
+      @include("sidebar")
           
         </div>
       </div>
