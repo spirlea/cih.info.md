@@ -94,8 +94,8 @@
               <i class="fa fa-globe fa-4x"></i>
             </div>
             <div class="service-content">
-              <h4>Web Hosting</h4>
-              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+              <h4>Johann Amos Comenius</h4>
+              <p>Natura înzestrează copilul numai cu „semințele științei, ale moralității și religiozității”, ele devin un bun al fiecărui om numai prin educație.</p>
             </div>
           </div>
           <!-- End Service Icon 1 -->
@@ -106,8 +106,8 @@
               <i class="fa fa-magic fa-4x"></i>
             </div>
             <div class="service-content">
-              <h4>Web Hosting</h4>
-              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+              <h4>Aristotel</h4>
+              <p>Cei care educa copiii sunt demni de mai multa onoare decat cei care le dau viata; de aceea pe langa viata, daruiti copiilor si arta de a trai bine, educandu-i.</p>
             </div>
           </div>
           <!-- End Service Icon 2 -->
@@ -118,8 +118,8 @@
               <i class="fa fa-rocket fa-4x"></i>
             </div>
             <div class="service-content">
-              <h4>Web Hosting</h4>
-              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+              <h4>Thomas Chandler Haliburton</h4>
+              <p>Educatia pe care o primesti la colegiu iti arata cat de putin stim in realitate.</p>
             </div>
           </div>
           <!-- End Service Icon 3 -->
