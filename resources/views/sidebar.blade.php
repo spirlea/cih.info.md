@@ -28,7 +28,7 @@
                     @foreach($sidebar as $side)
                 <li>
                   <div class="widget-thumb">
-                    <a href="{{route('ShowArticle',['id'=>$side->id])}}"><img src="{{URL::asset('images/blog-mini-01.jpg')}}" alt="" /></a>
+                    <a href="{{route('ShowArticle',['id'=>$side->id])}}"><img src="{{$side->image}}" alt="" /></a>
                   </div>
                   
                   <div class="widget-content">

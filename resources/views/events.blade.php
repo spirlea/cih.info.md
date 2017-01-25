@@ -1,25 +1,5 @@
 @extends('welcome')
 @section('content')
-    <!-- Start Page Banner -->
-    <div class="page-banner">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h2>Blog</h2>
-            <p>Blog Page With Right Sidebar</p>
-          </div>
-          <div class="col-md-6">
-            <ul class="breadcrumbs">
-              <li><a href="{{URL("/index")}}">Home</a></li>
-              <li>Blog</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End Page Banner -->
-
-
     <!-- Start Content -->
     <div id="content">
       <div class="container">
@@ -34,7 +14,7 @@
               <div class="post-head">
                 <a class="lightbox" data-lightbox-type="ajax" href="{{$article->image}}">
                   <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                  <img class="photo_events" src="{{$article->image}}">
+                  <img src="{{$article->image}}">
                 </a>
               </div>
               <!-- Post Content -->

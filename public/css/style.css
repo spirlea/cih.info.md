@@ -55,7 +55,9 @@ strong, b {
 
 img {
 	max-width: 100%;
-	height: auto;
+	width: 500px;
+        height: 300px;
+        max-height: 300px;
 }
 
 ul, ol {
@@ -3537,7 +3539,7 @@ and (min-width : 551px){
 
 .blog-post .post-head img {
 	width: 850px;
-	height: 100%;
+	height: 400px !important;
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -5662,4 +5664,4 @@ ul.footer-nav li a:hover {
 }
 img.photol{
      height:184px;}
-.photo_events{width:200px;height:200px;}
+
