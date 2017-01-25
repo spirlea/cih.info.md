@@ -41,9 +41,9 @@
 
               <!-- Start Touch Slider -->
               <div class="touch-slider" data-slider-navigation="true" data-slider-pagination="true">
-                <div class="item"><img alt="" src="images/about-01.jpg"></div>
-                <div class="item"><img alt="" src="images/about-02.jpg"></div>
-                <div class="item"><img alt="" src="images/about-03.jpg"></div>
+                <div class="item"><img alt="" src="images/slider/bg1.jpg"></div>
+                <div class="item"><img alt="" src="images/slider/bg2.jpg"></div>
+                <div class="item"><img alt="" src="images/slider/bg3.jpg"></div>
               </div>
               <!-- End Touch Slider -->
 

@@ -2,6 +2,7 @@
 @section('content')
     <!-- Start Home Page Slider -->
     <section id="home">
+        <div class="container">
       <!-- Carousel -->
       <div id="main-slide" class="carousel slide" data-ride="carousel">
 
@@ -17,51 +18,15 @@
         <div class="carousel-inner">
           <div class="item active">
             <img class="img-responsive" src="images/slider/bg1.jpg" alt="slider">
-            <div class="slider-content">
-              <div class="col-md-12 text-center">
-                <h2 class="animated2">
-                            <span>Welcome to <strong>Margo</strong></span>
-                          </h2>
-                <h3 class="animated3">
-                              <span>The ultimate aim of your business</span>
-                            </h3>
-                <p class="animated4"><a href="#" class="slider btn btn-system btn-large">Check Now</a>
-                </p>
-              </div>
-            </div>
+
           </div>
           <!--/ Carousel item end -->
           <div class="item">
             <img  class="img-responsive min_height" src="images/slider/bg2.jpg" alt="slider">
-            <div class="slider-content">
-              <div class="col-md-12 text-center">
-                <h2 class="animated4">
-                                <span><strong>Margo</strong> for the highest</span>
-                            </h2>
-                <h3 class="animated5">
-                              <span>The Key of your Success</span>
-                            </h3>
-                <p class="animated6"><a href="#" class="slider btn btn-system btn-large">Buy Now</a>
-                </p>
-              </div>
-            </div>
           </div>
           <!--/ Carousel item end -->
           <div class="item">
             <img class="img-responsive" src="images/slider/bg3.jpg" alt="slider">
-            <div class="slider-content">
-              <div class="col-md-12 text-center">
-                <h2 class="animated7 white">
-                                <span>The way of <strong>Success</strong></span>
-                            </h2>
-                <h3 class="animated8 white">
-                              <span>Why you are waiting</span>
-                            </h3>
-                <div class="">
-                  <a class="animated4 slider btn btn-system btn-large btn-min-block" href="#">Get Now</a><a class="animated4 slider btn btn-default btn-min-block" href="#">Live Demo</a>
-                </div>
-              </div>
-            </div>
           </div>
           <!--/ Carousel item end -->
         </div>
@@ -76,6 +41,7 @@
         </a>
       </div>
       <!-- /carousel -->
+        </div>
     </section>
     <!-- End Home Page Slider -->
 
@@ -158,20 +124,6 @@
               </div>
 @endforeach
               
-                 
-
-
-             
-
-             
-
-              
-
-             
-              
-
-              
-
             </div>
           </div>
           <!-- End Recent Projects Carousel -->
@@ -190,35 +142,23 @@
         <div class="row">
           <div class="col-md-6">
             <!-- Classic Heading -->
-            <h4 class="classic-title"><span>Latest News</span></h4>
+            <h4 class="classic-title"><span>Postări populare</span></h4>
 
             <!-- Start Latest Posts -->
             <div class="latest-posts-classic">
-
+              @foreach($sidebar as $side)
               <!-- Post 1 -->
               <div class="post-row">
                 <div class="left-meta-post">
                   <div class="post-date"><span class="day">28</span><span class="month">Dec</span></div>
                   <div class="post-type"><i class="fa fa-picture-o"></i></div>
                 </div>
-                <h3 class="post-title"><a href="#">Standard Post With Image</a></h3>
+                <h3 class="post-title"><a href="#">{{$side->title}}</a></h3>
                 <div class="post-content">
-                  <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet <a class="read-more" href="#">Read More...</a></p>
+                  <p>{{$side->description}}<a class="read-more" href="{{route('ShowArticle',['id'=>$article->id])}}">Citește mai mult...</a></p>
                 </div>
               </div>
-
-              <!-- Post 2 -->
-              <div class="post-row">
-                <div class="left-meta-post">
-                  <div class="post-date"><span class="day">26</span><span class="month">Dec</span></div>
-                  <div class="post-type"><i class="fa fa-picture-o"></i></div>
-                </div>
-                <h3 class="post-title"><a href="#">Gallery Post</a></h3>
-                <div class="post-content">
-                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a class="read-more" href="#">Read More...</a></p>
-                </div>
-              </div>
-
+              @endforeach
             </div>
             <!-- End Latest Posts -->
           </div>
@@ -251,69 +191,9 @@
         <!-- .row -->
       </div>
       <!-- .container -->
-      <!-- End News & Skill Section -->
-
 
       <!-- Divider -->
       <div class="hr1 margin-60"></div>
-
-
-      <!-- Start Clients/Partner Section -->
-      <div class="container">
-        <div class="our-clients">
-
-          <!-- Classic Heading -->
-          <h4 class="classic-title"><span>Our Clients</span></h4>
-
-          <div class="clients-carousel custom-carousel touch-carousel" data-appeared-items="5">
-
-            <!-- Client 1 -->
-            <div class="client-item item">
-              <a href="#"><img src="images/c1.png" alt="" /></a>
-            </div>
-
-            <!-- Client 2 -->
-            <div class="client-item item">
-              <a href="#"><img src="images/c2.png" alt="" /></a>
-            </div>
-
-            <!-- Client 3 -->
-            <div class="client-item item">
-              <a href="#"><img src="images/c3.png" alt="" /></a>
-            </div>
-
-            <!-- Client 4 -->
-            <div class="client-item item">
-              <a href="#"><img src="images/c4.png" alt="" /></a>
-            </div>
-
-            <!-- Client 5 -->
-            <div class="client-item item">
-              <a href="#"><img src="images/c5.png" alt="" /></a>
-            </div>
-
-            <!-- Client 6 -->
-            <div class="client-item item">
-              <a href="#"><img src="images/c6.png" alt="" /></a>
-            </div>
-
-            <!-- Client 7 -->
-            <div class="client-item item">
-              <a href="#"><img src="images/c7.png" alt="" /></a>
-            </div>
-
-            <!-- Client 8 -->
-            <div class="client-item item">
-              <a href="#"><img src="images/c8.png" alt="" /></a>
-            </div>
-
-          </div>
-        </div>
-      </div>
-      <!-- .container -->
-      <!-- End Clients/Partner Section -->
-
-
     </div>
     <!-- End Content -->
 

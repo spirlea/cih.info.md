@@ -27,7 +27,7 @@
       <div class="container">
         <div class="row blog-post-page">
           <div class="col-md-9 blog-box">
-
+    @if($article)
             <!-- Start Single Post Area -->
             <div class="blog-post gallery-post">
 
@@ -35,27 +35,15 @@
               <div class="post-head">
                 <div class="touch-slider post-slider">
                   <div class="item">
-                    <a class="lightbox" title="This is an image title" href="{{URL::asset('images/blog-02.jpg')}}" data-lightbox-gallery="gallery1">
+                    <a class="lightbox" title="This is an image title" href="" data-lightbox-gallery="gallery1">
                       <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                      <img alt="" src="images/blog-02.jpg">
-                    </a>
-                  </div>
-                  <div class="item">
-                    <a class="lightbox" title="This is an image title" href="{{URL::asset('images/blog-03.jpg')}}" data-lightbox-gallery="gallery1">
-                      <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                      <img alt="" src="images/blog-03.jpg">
-                    </a>
-                  </div>
-                  <div class="item">
-                    <a class="lightbox" title="This is an image title" href="{{URL::asset('images/blog-04.jpg')}}" data-lightbox-gallery="gallery1">
-                      <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                      <img alt="" src="{{URL::asset('images/blog-04.jpg')}}">
+                      <img alt="" src="">
                     </a>
                   </div>
                 </div>
               </div>
               <!-- End Single Post (Gallery) -->
-              @if($article)
+              
               <!-- Start Single Post Content -->
               <div class="post-content">
                 <div class="post-type"><i class="fa fa-picture-o"></i></div>

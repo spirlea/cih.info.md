@@ -92,24 +92,6 @@
                   <a class="google itl-tooltip" data-placement="bottom" title="Google Plus" href="#"><i class="fa fa-google-plus"></i></a>
                 </li>
                 <li>
-                  <a class="dribbble itl-tooltip" data-placement="bottom" title="Dribble" href="#"><i class="fa fa-dribbble"></i></a>
-                </li>
-                <li>
-                  <a class="linkdin itl-tooltip" data-placement="bottom" title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                </li>
-                <li>
-                  <a class="flickr itl-tooltip" data-placement="bottom" title="Flickr" href="#"><i class="fa fa-flickr"></i></a>
-                </li>
-                <li>
-                  <a class="tumblr itl-tooltip" data-placement="bottom" title="Tumblr" href="#"><i class="fa fa-tumblr"></i></a>
-                </li>
-                <li>
-                  <a class="instgram itl-tooltip" data-placement="bottom" title="Instagram" href="#"><i class="fa fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a class="vimeo itl-tooltip" data-placement="bottom" title="vimeo" href="#"><i class="fa fa-vimeo-square"></i></a>
-                </li>
-                <li>
                   <a class="skype itl-tooltip" data-placement="bottom" title="Skype" href="#"><i class="fa fa-skype"></i></a>
                 </li>
               </ul>
@@ -158,7 +140,7 @@
                 <a href="{{route('conducere')}}">Despre</a>
               </li>
               <li>
-                <a href="/specialities">Specialități</a>
+                <a href="">Specialități</a>
                 <ul class="dropdown">
                   <li><a href="{{route('ShowSpecialities',['id'=>1])}}">Informatica</a>
                   </li>
@@ -174,7 +156,7 @@
                 <a href="#">Admitere</a>
               </li>
               <li>
-                <a target="_blank" href="http://cipc.info.md/orar/index.html">Orar</a>
+                <a target="_blank" href="http://orar.cihcahul.md/">Orar</a>
               </li>
               <li>
                 <a href="{{route('events')}}">Evenimente</a>

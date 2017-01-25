@@ -32,9 +32,9 @@
             <div class="blog-post image-post">
               <!-- Post Thumb -->
               <div class="post-head">
-                <a class="lightbox" title="Tataru Gheorghe Director CIH" href="images/blog-01.jpg">
+                <a class="lightbox" data-lightbox-type="ajax" href="{{$article->image}}">
                   <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                  <img alt="" src="{{$article->image}}">
+                  <img class="photo_events" src="{{$article->image}}">
                 </a>
               </div>
               <!-- Post Content -->
