@@ -14,7 +14,7 @@
               <div class="post-head">
                 <a class="lightbox" data-lightbox-type="ajax" href="{{$article->image}}">
                   <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                  <img src="{{$article->image}}">
+                  <img class="photo_events" src="{{$article->image}}">
                 </a>
               </div>
               <!-- Post Content -->

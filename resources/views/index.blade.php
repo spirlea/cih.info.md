@@ -110,7 +110,7 @@
                   <div class="portfolio-thumb">
                     <a class="lightbox" data-lightbox-type="ajax" href="{{$article->image}}">
                       <div class="thumb-overlay"><i class="fa fa-picture-o"></i></div>
-                      <img alt="" src="{{$article->image}}" />
+                      <img class="photo_last" src="{{$article->image}}" />
                     </a>
                   </div>
                   <div class="portfolio-details">
