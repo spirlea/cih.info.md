@@ -34,7 +34,7 @@
               <div class="post-head">
                 <a class="lightbox" title="Tataru Gheorghe Director CIH" href="images/blog-01.jpg">
                   <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                  <img alt="" src="{{URL::asset('images/blog-01.jpg')}}">
+                  <img alt="" src="{{$article->image}}">
                 </a>
               </div>
               <!-- Post Content -->

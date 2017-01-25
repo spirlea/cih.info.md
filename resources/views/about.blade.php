@@ -56,98 +56,9 @@
 
           <div class="row">
 
-            <div class="col-md-6">
+         
 
-              <!-- Classic Heading -->
-              <h4 class="classic-title"><span>Our Skills</span></h4>
-
-              <div class="skill-shortcode">
-                <div class="skill">
-                  <p>Web Design</p>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" data-percentage="60">
-                      <span class="progress-bar-span">60%</span>
-                      <span class="sr-only">60% Complete</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <p>Wordpress</p>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" data-percentage="80">
-                      <span class="progress-bar-span">80%</span>
-                      <span class="sr-only">60% Complete</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <p>CSS 3</p>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" data-percentage="90">
-                      <span class="progress-bar-span">90%</span>
-                      <span class="sr-only">60% Complete</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="skill">
-                  <p>HTML 5</p>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" data-percentage="100">
-                      <span class="progress-bar-span">100%</span>
-                      <span class="sr-only">60% Complete</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-            <div class="col-md-6">
-
-              <!-- Classic Heading -->
-              <h4 class="classic-title"><span>Our Solutions</span></h4>
-
-              <!-- Accordion -->
-              <div class="panel-group" id="accordion">
-
-                <!-- Start Accordion 1 -->
-                <div class="panel panel-default">
-                  <!-- Toggle Heading -->
-                  <div class="panel-heading">
-                    <h4 class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-1">
-                        <i class="fa fa-angle-up control-icon"></i>
-                        <i class="fa fa-desktop"></i> Fully Responsive Theme
-                      </a>
-                    </h4>
-                  </div>
-                  <!-- Toggle Content -->
-                  <div id="collapse-1" class="panel-collapse collapse in">
-                    <div class="panel-body"><img class="img-thumbnail image-text" style="float:left; width:150px;" alt="" src="images/bussniss-pic.jpg" /> <strong class="accent-color">Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown <strong>printer</strong> took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
-                  </div>
-                </div>
-                <!-- End Accordion 1 -->
-
-                <!-- Start Accordion 2 -->
-                <div class="panel panel-default">
-                  <!-- Toggle Heading -->
-                  <div class="panel-heading">
-                    <h4 class="panel-title">
-                      <a data-toggle="collapse" data-parent="#accordion" href="#collapse-2" class="collapsed">
-                        <i class="fa fa-angle-up control-icon"></i>
-                        <i class="fa fa-gift"></i> Touchable Slider
-                      </a>
-                    </h4>
-                  </div>
-                  <!-- Toggle Content -->
-                  <div id="collapse-2" class="panel-collapse collapse">
-                    <div class="panel-body">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. The point of using Lorem Ipsum is that it has a <strong>more-or-less</strong> normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                  </div>
-                </div>
-                <!-- End Accordion 2 -->
-
-              </div>
-            </div>
+           
 
           </div>
 
@@ -155,106 +66,26 @@
           <div class="hr1" style="margin-bottom:50px;"></div>
 
           <!-- Classic Heading -->
-          <h4 class="classic-title"><span>Administratia</span></h4>
-
+          <DIV class="text-center">
+          <h1>ECHIPA MANAGERIALA A COLEGIULUI IULIA HASDEU</h1>
+          </div>
           <!-- Start Team Members -->
           <div class="row">
-
-            <!-- Start Memebr 1 -->
+@foreach($menu as $men)
+            <!-- Start Memebr  -->
             <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="team-member">
                 <!-- Memebr Photo, Name & Position -->
-                <div class="member-photo">
-                  <img alt="" src="images/team/face_1.png" />
-                  <div class="member-name">Tataru Gheorghe<span>Director</span></div>
+                <div >
+                  <img style="height:155px;width:339px" alt="" src="{{$men->image}}" />
+                  
                 </div>
-                <!-- Memebr Words -->
-                <div class="member-info">
-                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat.</p>
-                </div>
-                <!-- Memebr Social Links -->
-                <div class="member-socail">
-                  <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-                  <a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
-                  <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                  <a class="flickr" href="#"><i class="fa fa-flickr"></i></a>
-                  <a class="mail" href="#"><i class="fa fa-envelope"></i></a>
-                </div>
+ 
               </div>
             </div>
             <!-- End Memebr 1 -->
-
-            <!-- Start Memebr 2 -->
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="team-member">
-                <!-- Memebr Photo, Name & Position -->
-                <div class="member-photo">
-                  <img alt="" src="images/team/face_2.png" />
-                  <div class="member-name">Chihai <span>Director Adjunct</span></div>
-                </div>
-                <!-- Memebr Words -->
-                <div class="member-info">
-                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat.</p>
-                </div>
-                <!-- Memebr Social Links -->
-                <div class="member-socail">
-                  <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-                  <a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
-                  <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                  <a class="flickr" href="#"><i class="fa fa-flickr"></i></a>
-                  <a class="mail" href="#"><i class="fa fa-envelope"></i></a>
-                </div>
-              </div>
-            </div>
-            <!-- End Memebr 2 -->
-
-            <!-- Start Memebr 3 -->
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="team-member">
-                <!-- Memebr Photo, Name & Position -->
-                <div class="member-photo">
-                  <img alt="" src="images/team/face_3.png" />
-                  <div class="member-name">Chris John <span>Developer</span></div>
-                </div>
-                <!-- Memebr Words -->
-                <div class="member-info">
-                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat.</p>
-                </div>
-                <!-- Memebr Social Links -->
-                <div class="member-socail">
-                  <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-                  <a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
-                  <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                  <a class="flickr" href="#"><i class="fa fa-flickr"></i></a>
-                  <a class="mail" href="#"><i class="fa fa-envelope"></i></a>
-                </div>
-              </div>
-            </div>
-            <!-- End Memebr 3 -->
-
-            <!-- Start Memebr 4 -->
-            <div class="col-md-3 col-sm-6 col-xs-12">
-              <div class="team-member">
-                <!-- Memebr Photo, Name & Position -->
-                <div class="member-photo">
-                  <img alt="" src="images/team/face_4.png" />
-                  <div class="member-name">Sara John <span>Developer</span></div>
-                </div>
-                <!-- Memebr Words -->
-                <div class="member-info">
-                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore fugiat.</p>
-                </div>
-                <!-- Memebr Social Links -->
-                <div class="member-socail">
-                  <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-                  <a class="gplus" href="#"><i class="fa fa-google-plus"></i></a>
-                  <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                  <a class="flickr" href="#"><i class="fa fa-flickr"></i></a>
-                  <a class="mail" href="#"><i class="fa fa-envelope"></i></a>
-                </div>
-              </div>
-            </div>
-            <!-- End Memebr 4 -->
+@endforeach
+            
 
           </div>
           <!-- End Team Members -->
@@ -262,57 +93,7 @@
           <!-- Divider -->
           <div class="hr1" style="margin-bottom:50px;"></div>
 
-          <!-- Start Clients Carousel -->
-          <div class="our-clients">
-
-            <!-- Classic Heading -->
-            <h4 class="classic-title"><span>Our Happy Clients</span></h4>
-
-            <div class="clients-carousel custom-carousel touch-carousel" data-appeared-items="5">
-
-              <!-- Client 1 -->
-              <div class="client-item item">
-                <a href="#"><img src="images/c1.png" alt="" /></a>
-              </div>
-
-              <!-- Client 2 -->
-              <div class="client-item item">
-                <a href="#"><img src="images/c2.png" alt="" /></a>
-              </div>
-
-              <!-- Client 3 -->
-              <div class="client-item item">
-                <a href="#"><img src="images/c3.png" alt="" /></a>
-              </div>
-
-              <!-- Client 4 -->
-              <div class="client-item item">
-                <a href="#"><img src="images/c4.png" alt="" /></a>
-              </div>
-
-              <!-- Client 5 -->
-              <div class="client-item item">
-                <a href="#"><img src="images/c5.png" alt="" /></a>
-              </div>
-
-              <!-- Client 6 -->
-              <div class="client-item item">
-                <a href="#"><img src="images/c6.png" alt="" /></a>
-              </div>
-
-              <!-- Client 7 -->
-              <div class="client-item item">
-                <a href="#"><img src="images/c7.png" alt="" /></a>
-              </div>
-
-              <!-- Client 8 -->
-              <div class="client-item item">
-                <a href="#"><img src="images/c8.png" alt="" /></a>
-              </div>
-
-            </div>
-          </div>
-          <!-- End Clients Carousel -->
+          
 
 
         </div>

@@ -13,9 +13,7 @@
 
 Route::get('/','Index1Controller@index')->name('home');
 
-Route::get('/about', function () {
-    return view('about');  
-});
+Route::get('about','Index1Controller@showadministratia')->name('conducere');
 Route::get('/contact', function () {
     return view('contact');  
 });

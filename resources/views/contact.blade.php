@@ -191,7 +191,7 @@
                   <textarea rows="7" placeholder="Message" name="message"></textarea>
                 </div>
               </div>
-              <button type="submit" id="submit" class="btn-system btn-large">Send</button>
+              <button type="submit" id="submit" disabled="disabled" class="btn-system btn-large">Send</button>
               <div id="success" style="color:#34495e;"></div>
             </form>
             <!-- End Contact Form -->

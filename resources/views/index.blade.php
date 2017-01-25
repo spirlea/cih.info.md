@@ -142,13 +142,13 @@
               <div class="portfolio-item item">
                 <div class="portfolio-border">
                   <div class="portfolio-thumb">
-                    <a class="lightbox" data-lightbox-type="ajax" href="https://vimeo.com/78468485">
-                      <div class="thumb-overlay"><i class="fa fa-play"></i></div>
-                      <img alt="" src="images/portfolio-1/1.png" />
+                    <a class="lightbox" data-lightbox-type="ajax" href="{{$article->image}}">
+                      <div class="thumb-overlay"><i class="fa fa-picture-o"></i></div>
+                      <img alt="" src="{{$article->image}}" />
                     </a>
                   </div>
                   <div class="portfolio-details">
-                    <a href="#">
+                    <a href="{{route('ShowArticle',['id'=>$article->id])}}">
                       <h4>{{$article->title}}</h4>
                       <span>{{$article->author}}</span>
                       <span>Drawing</span>

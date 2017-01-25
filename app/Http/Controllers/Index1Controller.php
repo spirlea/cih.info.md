@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Article;
 use App\Speciality;
 use App\Menus;
+use App\Administratia;
 class Index1Controller extends Controller
 {
    public function index(){
@@ -49,7 +50,14 @@ class Index1Controller extends Controller
        return view('welcome')->with(['menu'=>$menu]);
    }
  
+      public function showadministratia(){
+    $menu= Administratia::select(['id','nume','image'])->get();
+       //dump($articl);
+       return view('about')->with(['menu'=>$menu]);
+        
        
+       
+   } 
    
    
    

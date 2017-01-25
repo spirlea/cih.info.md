@@ -155,7 +155,7 @@
                 <a class="active" href="{{route('home')}}">Acasă</a>
               </li>
               <li>
-                <a href="{{route('conducere')}}">Despre</a>
+                <a href="{{URL("/about")}}">Despre</a>
               </li>
               <li>
                 <a href="/specialities">Specialități</a>
@@ -171,7 +171,7 @@
                 </ul>
               </li>
               <li>
-                <a href="#">Admitere</a>
+                <a href="portfolio-3.html">Admitere</a>
               </li>
               <li>
                 <a target="_blank" href="http://cipc.info.md/orar/index.html">Orar</a>
@@ -192,7 +192,7 @@
         <a class="active" href="{{route('home')}}">Acasă</a>
           </li>
           <li>
-                <a href="{{route('conducere')}}">Despre</a>
+                <a href="{{URL("/about")}}">Despre</a>
               </li>
               <li>
                 <a href="/specialities">Specialități</a>
@@ -227,7 +227,7 @@
     </header>
     <!-- End Header Section -->
     
-    @yield('content')
+    <h1>Aceasta pagina va fi disponibila in perioada admiterii!!!</h1>
    
     <!-- Start Footer -->
     <footer>
@@ -297,7 +297,7 @@
                 
               </li>
               <li>
-                <a href="#">Admitere</a>
+                <a href="portfolio-3.html">Admitere</a>
               </li>
               <li>
                 <a target="_blank" href="http://cipc.info.md/orar/index.html">Orar</a>
@@ -356,10 +356,9 @@
         <!-- Start Copyright -->
         <div class="copyright-section">
           <div class="row">
-            <div class="col-md-6 ">
-               
-                <p> Copyright&copy; 2017 Colegiul Iulia Hasdeu. Toate drepturile rezervate<a href="http://cihcahul.md"> CIH</a> </p>
-                </div>
+            <div class="col-md-6">
+              <p> Copyright&copy; 2017 Colegiul Iulia Hasdeu. Toate drepturile rezervate<a href="http://cihcahul.md"> CIH</a> </p>
+            </div>
             
            
           </div>
