@@ -155,7 +155,7 @@
                 </div>
                 <h3 class="post-title"><a href="#">{{$side->title}}</a></h3>
                 <div class="post-content">
-                  <p>{{$side->description}}<a class="read-more" href="{{route('ShowArticle',['id'=>$article->id])}}">Citește mai mult...</a></p>
+                  <p>{{$side->description}}<a class="read-more" href="{{route('ShowArticle',['id'=>$side->id])}}">Citește mai mult...</a></p>
                 </div>
               </div>
               @endforeach

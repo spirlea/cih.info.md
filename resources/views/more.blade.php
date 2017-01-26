@@ -37,7 +37,7 @@
                   <div class="item">
                     <a class="lightbox" title="This is an image title" href="" data-lightbox-gallery="gallery1">
                       <div class="thumb-overlay"><i class="fa fa-arrows-alt"></i></div>
-                      <img alt="" src="">
+                      <img class="photo_events" alt="" src="{{URL::asset($article->image)}}">
                     </a>
                   </div>
                 </div>

@@ -14,6 +14,7 @@ class Index1Controller extends Controller
            $specialt=Speciality::select(['denumire','nr'])->get();
            $num=0;
            $sidebar=Article::select(['id','title','date','image','description','views'])->orderBy('views','desc')->limit(2)->get();
+           
            foreach ($specialt as $total){ $num=$total->nr+$num;   }	   
 //dump($num);
 	   return view('index')->with(['articles'=>$message,'specialit'=>$specialt,'numar'=>$num,'sidebar'=>$sidebar,]);

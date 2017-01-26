@@ -116,8 +116,8 @@
               <i class="fa fa-bars"></i>
             </button>
             <!-- End Toggle Nav Link For Mobiles -->
-            <a class="navbar-brand" href="{{route('home')}}">
-                <h1><b>CIH</b></h1>
+            <a class="navbar-brand "style="padding-top:0 !important;padding-bottom: 0;" href="{{route('home')}}">
+                <img src="{{URL::asset('images/logocih.png')}}"/>
             </a>
           </div>
           <div class="navbar-collapse collapse">
@@ -298,7 +298,7 @@
 
           <!-- Start Flickr Widget -->
           <div class="col-md-3">
-            <div >
+            <div class="footer-widget twitter-widget">
               <h4> <a href="/specialities">Specialități</a><span class="head-line"></span></h4>
               <ul >
                   <li><a href="{{route('ShowSpecialities',['id'=>1])}}">Informatica</a>
@@ -318,7 +318,7 @@
 
           <!-- Start Contact Widget -->
           <div class="col-md-3">
-            <div class="footer-widget contact-widget">
+            <div class="footer-widget contact-widget ">
               <h4>CIH</h4>
               <p>La naștere, natura înzestrează copilul numai cu „semințele științei, ale moralității și religiozității”, ele devin un bun al fiecărui om numai prin educație. Educația este o activitate de stimulare a acestor „semințe”, și implicit, de conducere a procesului de umanizare, omul ”nu poate deveni om decât dacă este educat”.</p>
               <ul>
